@@ -9,14 +9,14 @@ body {
 
 .summary {
     background-color: white;
-    padding: 10px;
+    padding: 20px;
     margin-top: 40px;
     margin-bottom: 40px;
 }
 
 .visualizations {
     background-color: white;
-    padding: 10px;
+    padding: 20px;
     margin-top: 40px;
     margin-bottom: 40px;
 }
@@ -24,11 +24,13 @@ body {
 .comps {
     background-color: white;
     margin-top: 40px;
+    padding: 20px;
 }
 
 .data {
     background-color: white;
     margin-top: 40px;
+    padding: 20px;
 }
 
 .plots {
@@ -47,3 +49,38 @@ body {
     background-image: url(data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000…p='round' stroke-miterlimit='10' d='M47h22M4 15h22M423h22'/%3e%3c/svg%3e);
 } */
 
+.navbar-brand {
+    color: white;
+    background-color: rgb(73,170,165);
+    padding: 10px;
+}
+
+.summary h2 {
+    color: rgb(73,170,165);
+}
+
+.visualizations h3 {
+    color: rgb(73,170,165);
+}
+
+.comps h2{
+    color: rgb(73,170,165);
+}
+
+.comps .text-center {
+    color: rgb(73,170,165);
+}
+
+.data h2{
+    color: rgb(73,170,165); 
+}
+
+.plots h2{
+    color: rgb(73,170,165); 
+}
+
+@media (max-width : 768px) {
+    .navbar {
+    background-color: rgb(73,170,165);
+  }
+}
